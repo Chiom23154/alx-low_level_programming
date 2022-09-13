@@ -1,15 +1,24 @@
 #include "main.h"
 /**
- * add - adds two integrers and returns the result
- *
- * @x: number being added
- *
- * @y: number being added
- *
- * Return: Always 0.
- *
+ * print_alphabet_x10 - prints 10 times the alphabet, in lower
+ * Return: Always return 0
  */
-int add(int x, int y)
+void print_alphabet_x10(void)
 {
-	return (x + y);
+	char ch;
+	int i;
+
+	i = 0;
+
+	while (i < 10)
+	{
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
+	}
 }
