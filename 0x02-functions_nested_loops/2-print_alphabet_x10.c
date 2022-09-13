@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - adds two integers and return the result
+ * add - adds two integrers and returns the result
  *
  * @x: number being added
  *
