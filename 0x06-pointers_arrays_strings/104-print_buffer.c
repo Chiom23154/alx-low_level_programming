@@ -3,7 +3,7 @@
 
 /**
  * print_buffer - prints a buffer
- * @b: buffer
+ * @b: buffer.
  * @size: size of buffer.
  * Return: no return.
  */
