@@ -33,7 +33,7 @@ char *_strdup(char *str)
 	/*check if malloc was successful*/
 	if (nstr == NULL)
 	{
-			return (NULL);
+		return (NULL);
 	}
 
 	for (i = 0; i < len; i++)
@@ -45,4 +45,3 @@ char *_strdup(char *str)
 	return (nstr);
 
 }
-
