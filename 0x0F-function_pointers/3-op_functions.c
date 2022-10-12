@@ -55,13 +55,15 @@ int op_div(int a, int b)
 
 /**
  * op_mod - calculates the module of two numbers.
- * @: first number.
+ * @a: first number.
  * @b: second number.
  *
  * Return: remainder of the division.
  */
 int op_mod(int a, int b)
 {
+	if (b == 0)
+	{
 	printf("Error\n");
 	exit(100);
 }
