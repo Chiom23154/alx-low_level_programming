@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int (*operation)(int, int);
 
 	if (argc != 4)
-	{P
+	{
 		printf("Error\n");
 		exit(98);
 	}
