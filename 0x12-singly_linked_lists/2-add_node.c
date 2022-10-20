@@ -7,7 +7,7 @@
  * Return: address of the head.
  */
 
-list_ *add_node(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
 	size_t nchar;
@@ -22,7 +22,7 @@ list_ *add_node(list_t **head, const char *str)
 		;
 
 	new->len = nchar;
-	mew->next = *head;
+	new->next = *head;
 	*head = new;
 
 	return (*head);
