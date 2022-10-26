@@ -2,7 +2,7 @@
 
 /**
  * free_listp2 - frees a linked list
- * @head: head of a list.
+ * @head; head of a list.
  *
  * Return: no return.
  */
@@ -47,7 +47,7 @@ size_t free_listint_safe(listint_t **h)
 		new->next = hptr;
 		hptr = new;
 
-		add = hptr;
+		add hptr;
 
 		while (add->next != NULL)
 		{
@@ -67,6 +67,6 @@ size_t free_listint_safe(listint_t **h)
 	}
 
 	*h = NULL;
-	free_listp(&hptr);
+	free_listp2(&hptr);
 	return (nnodes);
 }
